@@ -74,15 +74,9 @@
         margin: 4rem;
     }
 }
-@media  screen and (max-width: 500px) {
-    .section__padding{
-        padding: 4 rem 2rem;
-    }
-    .section__margin{
-        margin: 4rem 2rem;
-    }
-}
-    
+
+.scale-up-center{animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both}
+.text-focus-in{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}   
 
      
  

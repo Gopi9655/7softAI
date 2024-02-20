@@ -15,7 +15,11 @@ const Navbar = () => {
     <>
       <p><a href='home'>Home</a></p>
       <div className="dropdown">
-            <p><a href='#product' onClick={toggleDropdown}>Product</a></p>
+            <p><a href='#product' onClick={toggleDropdown}>Product 
+            <span style={{ fontSize: '12px', verticalAlign: 'middle' }}>
+            {isDropdownOpen ? ' \u25B2' : ' \u25BC'} {/* Triangle icon using HTML entity */}
+          </span>
+            </a></p>
             {isDropdownOpen && (
               <div className="dropdown-content">
                 <p><a href='#p1'>MANAGEMENT SOFTWARE</a></p>
