@@ -1,0 +1,7 @@
+@media screen and (max-width: 550px){
+    .main__card{
+        display: flex ;
+        flex-direction: column ;
+    }
+    
+}

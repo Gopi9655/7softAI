@@ -3,7 +3,7 @@ import './cmpmotto.css'
 import logo1 from '../../assets/support2.jpg'
 const CmpMotto = () => {
   return (
-    <div className='cmm__motto section__margin section__padding'>
+    <div className='cmm__motto section__margin'>
             <img src={logo1} alt='loading' className='image__container' />
             <div className='cmm__content'>
             <h2 className='gradient__text'> Tailored Solutions</h2>

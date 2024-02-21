@@ -1,7 +1,7 @@
 .cmm__motto{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;gap: 5rem; background-color: rgb(0, 0, 0);
+    justify-content: space-between;gap: 5rem;;
     border-radius: 15px;
 }
 .image__container {
