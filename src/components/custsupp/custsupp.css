@@ -1,0 +1,64 @@
+.custapp{
+
+}
+.head1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    font-weight: 300;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.text1{
+    margin-top: 1rem;
+    font-family: var(--font-family);
+}
+.card2__container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3rem ;
+
+  
+    
+}
+.cardmain__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 0.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   ;
+
+}
+ 
+.main__container{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 1rem;
+    align-items: center;
+    
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    
+}
+@media screen and (max-width: 550px){
+    .card2__container{
+        flex-direction: column;
+
+    }
+   
+}
+
+
+
+

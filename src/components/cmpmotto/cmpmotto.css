@@ -19,7 +19,7 @@
     flex-direction: column; line-height: 2rem;
 }
 .cmm__content h3{
-        color: aliceblue;
+        color: rgb(0, 0, 0);
 }
 @media (max-width: 550px) {
     .cmm__motto{

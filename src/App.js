@@ -3,8 +3,9 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Slogan from './components/slogan/Slogan'
 import CmpMotto from './components/cmpmotto/CmpMotto'
-import JustLaunched from './components/justlaunched/JustLaunched'
 import JlComponent from './container/jlcomponent/JlComponent'
+import CustSupp from './components/custsupp/CustSupp'
+import Expert from './components/expert/Expert'
 const App = () => {
   return (
     <div className='App' >
@@ -13,7 +14,8 @@ const App = () => {
             <Slogan />
             <CmpMotto />
             <JlComponent />
-            <JustLaunched />
+            <CustSupp />
+            <Expert />
         </div>
        
     </div>

@@ -14,8 +14,7 @@
  }
  .gradient__bg{
  /* global 94%+ browsers support */
-    background: linear-gradient(272deg, rgba(4, 35, 64, 1) 0%, rgba(37, 71, 92, 1) 50%, rgba(33, 38, 44, 1) 100%);
-
+   background-color: #ffff;
  }
  .gradient__text{
     background: var(--gradient-text);

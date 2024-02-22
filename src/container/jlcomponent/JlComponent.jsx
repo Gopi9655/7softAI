@@ -11,7 +11,7 @@ import './jlcontainer.css'
 
 const JlComponent = () => {
   return (
-       <div style={{ display: 'flex', gap:'4rem' }} className='section__margin main__Card'>
+       <div style={{ display: 'flex', gap:'4rem' }} className='card__container section__margin '>
 
       <Card style={{margin:'10px',padding:'10px',width:'50%'}} className='card1' >
       <CardContent style={{justifyContent:'center',display:'flex', alignItems:'center',flexDirection:'column'}}>

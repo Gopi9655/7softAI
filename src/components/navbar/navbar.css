@@ -3,6 +3,7 @@
     justify-content:space-evenly;
     padding:2rem 4rem;
     position: relative; /* Ensure the dropdown box is positioned relative to the navbar */
+
     
 }
 .navbar__links{
@@ -24,7 +25,7 @@
 }
 .navbar__links-container p,
 .navbar__menu-container p{
-     color: rgb(250, 250, 250);
+     color: rgb(0, 0, 0);
      font-family: var(--font-family);
      font-weight: 500;
      font-size: 18px;

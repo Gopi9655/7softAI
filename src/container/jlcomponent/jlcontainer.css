@@ -1,7 +1,9 @@
 @media screen and (max-width: 550px){
-    .main__card{
+    .card__container{
         display: flex ;
         flex-direction: column ;
+        width:100%;
+        justify-content: center;
     }
     
 }
