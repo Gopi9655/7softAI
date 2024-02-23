@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  
     scroll-behavior: smooth;
 
 }
@@ -77,5 +76,8 @@
 .scale-up-center{animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both}
 .text-focus-in{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}   
 
+.sdf{
+  background-color: rgb(200, 217, 231);
+}
      
  

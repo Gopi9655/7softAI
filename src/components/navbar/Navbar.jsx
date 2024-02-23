@@ -46,9 +46,9 @@ const Navbar = () => {
   );
 
   return (
-    <div className='navbar'>
-      <div className='navbar__links'>
-        <div className='navbar__links-logo'>
+    <div className='navbar  ' >
+      <div className='navbar__links '>
+        <div className='navbar__links-logo '>
           <img src={logo1} alt='logo loading' />
         </div>
         <div className='navbar__links-container'>

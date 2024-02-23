@@ -1,0 +1,39 @@
+.expertCard__Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    font-family: var(--font-family);
+    
+
+}
+.card__cont{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: var(--font-family);
+    text-align: justify;
+
+}
+.images{
+    border-radius: 10px;
+    
+
+}
+
+
+
+.exp__text11{
+    padding-bottom: 2rem;
+    text-align:left;
+    color:#386d8d;
+
+}
+.sdfdfs{
+    color:rgb(5, 17, 80)
+}
+

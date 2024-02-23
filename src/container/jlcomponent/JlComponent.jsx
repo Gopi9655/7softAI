@@ -11,9 +11,10 @@ import './jlcontainer.css'
 
 const JlComponent = () => {
   return (
-       <div style={{ display: 'flex', gap:'4rem' }} className='card__container section__margin '>
+    <div className='main__div' style={{background:'rgb(200, 217, 231)'}}>
+       <div style={{ display: 'flex', gap:'4rem',padding:'2rem 0' }} className='card__container section__margin '>
 
-      <Card style={{margin:'10px',padding:'10px',width:'50%'}} className='card1' >
+      <Card style={{margin:'10px',padding:'10px',width:'50%',}} className='card1' >
       <CardContent style={{justifyContent:'center',display:'flex', alignItems:'center',flexDirection:'column'}}>
         <Typography variant='h6' style={{fontSize:'20px', marginBlockEnd:'20px',fontWeight:'800'}}>Just Launched</Typography>
         <img src='	https://routemobile.b-cdn.net/wp-content/uploads/2023/08/ocean-logo.png'
@@ -40,6 +41,7 @@ const JlComponent = () => {
      
       
 
+      </div>
       </div>
     )
 }

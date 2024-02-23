@@ -5,17 +5,18 @@ import Slogan from './components/slogan/Slogan'
 import CmpMotto from './components/cmpmotto/CmpMotto'
 import JlComponent from './container/jlcomponent/JlComponent'
 import CustSupp from './components/custsupp/CustSupp'
-import Expert from './components/expert/Expert'
+import Channels from './components/channels/Channels'
+import ExpertContainer from './components/expert/ExpertContainer'
 const App = () => {
   return (
     <div className='App' >
         <div className='gradient__bg'>
             <Navbar />
             <Slogan />
-            <CmpMotto />
             <JlComponent />
             <CustSupp />
-            <Expert />
+            <Channels />  
+            <ExpertContainer />
         </div>
        
     </div>

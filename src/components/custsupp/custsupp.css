@@ -33,7 +33,6 @@
     align-items: center;
     width: 100%;
     border: 0.5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   ;
 
 }
  
@@ -45,10 +44,8 @@
     
 }
 .text3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
+
+   
     
 }
 @media screen and (max-width: 550px){

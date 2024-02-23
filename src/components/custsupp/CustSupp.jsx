@@ -26,14 +26,15 @@ const CustSupp = () => {
 
         { marketingData.map((item,index)=> (
                     <div className='main__container ' >
-                    <Card key={index} className='cardmain__container ' style={{display:'flex',justifyContent:'center',alignItems:'center' , border:'0.5px '}} >
+                    <Card key={index} className='cardmain__container ' style={{display:'flex',justifyContent:'center',alignItems:'center' , }} >
                       <CardMedia component="img" alt="green iguana" height="200" image={item.image} style={{width:'300px',
                       display:'flex',justifyContent:'center',alignItems:'center',marginBottom:'3rem'}} />
                       <CardContent style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}} className='card__content'>
                         <Typography variant="h5" component="div" style={{marginBottom:'1rem',fontWeight:500,display:'flex',justifyContent:'center'
                       
                       }}>{item.title}</Typography>
-                        <Typography variant="body2"  className='text3' style={{padding:'1rem ',fontWeight:20 }}>{item.description}</Typography>
+                        <Typography variant="body2" component="div"  className='text10' style={{fontWeight:20,display:'flex',
+                        justifyContent:'center',alignItems:'center', color: 'rgb(0, 0, 0)' }}>{item.description}</Typography>
                       </CardContent>
                     </Card>
                     </div>
