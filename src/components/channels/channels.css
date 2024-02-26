@@ -13,12 +13,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
-    gap: 4rem;
+    gap: 2rem 4rem;
 }
 .video__container{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    margin-right: 6rem;
     
     
 } 
@@ -41,7 +41,6 @@
     font-family: var(--font-family);
     letter-spacing: 0.8px;
     font-weight: 200;
-    line-height: 1.5;    
     
 }
 .t2 a{

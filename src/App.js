@@ -9,13 +9,19 @@ import Channels from './components/channels/Channels'
 import ExpertContainer from './components/expert/ExpertContainer'
 const App = () => {
   return (
-    <div className='App' >
-        <div className='gradient__bg'>
-            <Navbar />
+    <div className='App ' >
+        <div className='gradient__bg '>
+            <Navbar> </Navbar>
             <Slogan />
-            <JlComponent />
+
+
             <CustSupp />
+
+
+
             <Channels />  
+            <JlComponent />
+
             <ExpertContainer />
         </div>
        

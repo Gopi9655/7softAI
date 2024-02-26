@@ -3,7 +3,7 @@
     font-weight: 700;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-stretch:ultra-expanded;
-    color: rgb(158, 51, 8);
+    color: rgb(6, 46, 63);
     margin-bottom: 2rem;
 }
 .slogan_container{
@@ -12,6 +12,10 @@
     justify-content: center;
     flex-direction: column;
     align-items: center; 
+    background-color: #ffffff;
+    padding-bottom: 1rem;
+    margin: 0 4rem;
+    
     
 }.slogan_container p{
     display: flex;
@@ -23,7 +27,9 @@
 }
 .button1 {
 
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 .button1 button {

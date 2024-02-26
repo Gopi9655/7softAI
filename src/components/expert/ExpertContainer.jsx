@@ -6,7 +6,7 @@ import expertData from '../ExpertData';
 const ExpertContainer = () => {
   return (
     <div className='expert__component section__margin' >
-      <h1 style={{ display: 'flex', justifyContent: 'center', color:'rgb(7, 25, 118)' }}>Expert Opinion and Blogs</h1>
+      <h1 style={{ display: 'flex', justifyContent: 'center', color:'rgb(7, 25, 118)',marginBottom:'2.5rem' }}>Expert Opinion and Blogs</h1>
       <div className='expertCard__Container'>
         {expertData.map((item, index) => (
           <Card key={index} className='card__cont' >
