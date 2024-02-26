@@ -35,17 +35,17 @@
 .button1 button {
     padding: 1rem 2rem;
    
-  background:rgb(236, 232, 232);
+  background:rgb(13, 89, 50);
     border-radius: 5px;
     font-weight: bolder;
     font-size: medium;
     font-family:'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 } 
 .button1 button:hover {
-    background-color: #a54907;
-    color: aliceblue;
+    background-color: #0cc913;
+    color: rgb(14, 62, 236);
 }
 
 @media screen and (max-width: 550px) {

@@ -7,6 +7,7 @@ import JlComponent from './container/jlcomponent/JlComponent'
 import CustSupp from './components/custsupp/CustSupp'
 import Channels from './components/channels/Channels'
 import ExpertContainer from './components/expert/ExpertContainer'
+import CommunicateComponent from './components/communicate Comp/CommunicateComponent'
 const App = () => {
   return (
     <div className='App ' >
@@ -23,6 +24,8 @@ const App = () => {
             <JlComponent />
 
             <ExpertContainer />
+            <CommunicateComponent />
+
         </div>
        
     </div>
