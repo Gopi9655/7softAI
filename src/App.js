@@ -8,6 +8,7 @@ import CustSupp from './components/custsupp/CustSupp'
 import Channels from './components/channels/Channels'
 import ExpertContainer from './components/expert/ExpertContainer'
 import CommunicateComponent from './components/communicate Comp/CommunicateComponent'
+import Footer from './Footer'
 const App = () => {
   return (
     <div className='App ' >
@@ -24,7 +25,8 @@ const App = () => {
             <JlComponent />
 
             <ExpertContainer />
-            <CommunicateComponent />
+            
+            <Footer/>
 
         </div>
        
