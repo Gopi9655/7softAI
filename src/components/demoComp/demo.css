@@ -1,0 +1,25 @@
+.demo__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:3rem 0;
+    color: aliceblue;
+    font-family: var(--font-family);
+    
+}
+.demo{
+    background-color: #366d8b;
+    
+}
+.demo__button{
+    padding: 0.8rem 3rem;
+    background-color: chocolate;
+    border-radius:5px;
+    font-size: medium;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: aliceblue;
+
+}

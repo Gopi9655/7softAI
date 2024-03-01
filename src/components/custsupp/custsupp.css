@@ -1,5 +1,9 @@
 .custapp{
+    margin-top: 0;
 
+}
+.custsupp_container{
+    margin-top: 0;
 }
 .head1{
     display: flex;
@@ -51,8 +55,45 @@
 @media screen and (max-width: 550px){
     .card2__container{
         flex-direction: column;
+        width: 300px;
+      
+    }
+    .custsupp_container{
+        margin: 2rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
 
     }
+    .text1{
+        font-size: medium;
+        margin: 1rem 2.5rem;
+    }
+    .text2{
+        font-size: small;
+        margin-left: 2rem;
+    }
+    .card__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0.5rem 1rem;
+    }
+    .card__media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .card__media img{
+        width: 100px;
+    }
+
+
+
    
 }
 

@@ -1,5 +1,5 @@
 .slogan_text{
-    font-size:60px;
+    font-size:58px;
     font-weight: 700;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-stretch:ultra-expanded;
@@ -14,7 +14,7 @@
     align-items: center; 
     background-color: #ffffff;
     padding-bottom: 1rem;
-    margin: 0 4rem;
+    margin: 0 4rem; 
     
     
 }.slogan_container p{

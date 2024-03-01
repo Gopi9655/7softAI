@@ -11,7 +11,7 @@ const Channels = () => {
             <p className='t2'>Give your customers a seamless experience with all their preferred channels a on single platform. Enrich the quality 
                 of interactions on your existing channels like SMS, Voice, Email or connect with Enhanced Business Messaging 
                 Solutions like <span><a href='#metahub' >Meta Verified Hub,</a></span>  <span><a href='#7wapi'>7WAPI,</a></span>   <span><a href='#metahub'>Meta Verified Hub,</a></span>  <span><a href='#IcreatBrand'>IcreatBrand</a></span>   and Maps. We can help you unlock & simplify your 
-                ommunication needs.</p>
+                communication needs.</p>
                 <Button className='explore__bt' style={{background:'#ca786d',padding:'0.5rem 1.5rem',color:'#ffff'}}>Explore Now</Button>
         </div>
         <div className='video__container '>

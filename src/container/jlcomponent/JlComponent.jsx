@@ -13,8 +13,8 @@ import cardData1 from '../../Card1data';
 
 const JlComponent = () => {
   return (
-    <div className='jl__container' style={{background:'#f9f0f07d'}}>
-      <div className='boxes section__margin'>
+    <div className='jl__container section__margin' >
+      <div className='boxes '>
         
        {cardData1.map((item,index)=>(
         <div className='boxesmain__container' key={index}>

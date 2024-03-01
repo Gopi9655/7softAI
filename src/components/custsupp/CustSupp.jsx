@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import './custsupp.css';
 import marketingData from '../MarketingData';
-import Slider from 'slick-carousel/slick/slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 
 const CustSupp = () => {
@@ -19,9 +17,9 @@ const CustSupp = () => {
           {marketingData.map((item, index) => (
             <div key={index} className='main__container'>
               <Card className='cardmain__container'>
-                <CardMedia component="img" alt="green iguana" height="200" image={item.image} style={{ width: '300px' }} />
+                <CardMedia className='card__media' component="img" alt="green iguana" height="200" image={item.image} style={{ width: '300px' }}  />
                 <CardContent style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }} className='card__content'>
-                  <Typography variant="h5" component="div" style={{ marginBottom: '1rem', fontWeight: 500 }}>{item.title}</Typography>
+                  <Typography variant="h5" component="div" style={{ marginBottom: '1rem', fontWeight: 500 }} className='text15'>{item.title}</Typography>
                   <Typography variant="body2" component="div" className='text10' style={{ fontWeight: 20, display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'rgb(0, 0, 0)' }}>{item.description}</Typography>
                 </CardContent>
               </Card>

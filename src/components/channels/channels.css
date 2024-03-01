@@ -3,10 +3,10 @@
     flex-direction: row;
     justify-content: space-around;
     box-sizing: border-box;
-    width: 86%;
     gap:10rem;
     background-color: #d9eff9;
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
+    
 }    
 .leftpart{
     display: flex;
@@ -48,3 +48,18 @@
     font-weight: 600;
     
 }
+@media  screen and (max-width: 550px){
+    .channels__container{
+        flex-direction: column;
+        gap: 2rem;
+        margin: 1rem 3rem ;    }
+    .video__container{
+        margin-right: 4rem;
+        margin-bottom: 2rem;
+    }
+    .video__container video{
+        width: 200px;
+    }
+    
+}
+    

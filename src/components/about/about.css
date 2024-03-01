@@ -1,0 +1,31 @@
+.about__container{
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 4rem 10rem;
+}
+.who__text1 {
+    font-family: var(--font-family);
+    
+    font-size: 43px;
+}
+.who__text2 {
+    font-family: var(--font-family);
+    font-weight:300 ;
+    word-spacing: 0.5rem;
+}
+.who__text3{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+
+}
+.vm__container{
+    display: flex;
+    flex-direction: row;
+    width: full;
+    
+}
+.vmleft__part{
+    background-color: #c59d08 ;
+    
+}

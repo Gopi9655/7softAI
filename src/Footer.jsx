@@ -30,7 +30,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
     <div>
       <hr/>
 
-    <Box
+    <Box 
       sx={{
         fontFamily: 'sans-serif',
         background:'white',
@@ -42,11 +42,11 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
       }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-    >
+       >
 
       <Grid container spacing={2} justifyContent="center"sx={{fontStyle:'initial'}}>
        
-        <Grid item md={6} lg={2}>
+        <Grid item md={6} lg={2} >
         <Typography variant="body1" sx={{'&:hover': { color: 'blueviolet', cursor: 'pointer', fontFamily: 'revert-layer',fontStyle: 'italic'}}}><u><b>ABOUT US</b></u></Typography> 
             <List>
             <ListItemText>
