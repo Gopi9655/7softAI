@@ -41,6 +41,9 @@
     font-family: var(--font-family);
     letter-spacing: 0.8px;
     font-weight: 200;
+    line-height: 1.8;
+    word-spacing: 0.1rem;
+    font-weight: 400;
     
 }
 .t2 a{

@@ -21,6 +21,8 @@
 .text1{
     margin-top: 1rem;
     font-family: var(--font-family);
+    font-size: 26px;
+    margin-bottom: 1rem;
 }
 .card2__container{
     display: flex;
@@ -47,7 +49,13 @@
     align-items: center;
     
 }
-.text3{
+.text10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-spacing: 1px;
+    margin-top: 1rem;
 
    
     

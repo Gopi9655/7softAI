@@ -47,6 +47,11 @@
     background-color: #0cc913;
     color: rgb(14, 62, 236);
 }
+.slogan_text{
+    font-family: var(--font-family);
+    font-size: 40px;
+    margin-top: 2rem;
+}
 
 @media screen and (max-width: 550px) {
     .slogan_text{

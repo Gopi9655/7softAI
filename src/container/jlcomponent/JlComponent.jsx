@@ -17,8 +17,8 @@ const JlComponent = () => {
       <div className='boxes '>
         
        {cardData1.map((item,index)=>(
-        <div className='boxesmain__container' key={index}>
-          <div className='box__contents '>
+        <div className='boxesmain__container' style={{padding:'1rem 2rem'}} key={index}>
+          <div className='box__contents ' > 
             <h1>{item.head1}</h1>
             <img src={item.image} alt="img" />
             <h3 >{item.desc}</h3>

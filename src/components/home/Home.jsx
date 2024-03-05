@@ -5,6 +5,7 @@ import Channels from '../channels/Channels'
 import JlComponent from '../../container/jlcomponent/JlComponent'
 import ExpertContainer from '../expert/ExpertContainer'
 import CommunicateComponent from '../communicate Comp/CommunicateComponent'
+import Product from '../Product.jsx/Product'
 const Home = () => {
   return (
     <div>
@@ -13,6 +14,8 @@ const Home = () => {
           <Channels />
           <JlComponent />
           <ExpertContainer />
+          <Product />
+
     </div>
   )
 }
