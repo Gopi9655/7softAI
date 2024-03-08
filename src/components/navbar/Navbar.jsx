@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo1 from '../../assets/logo4 (1).jpg';
+import logo1 from '../../assets/WhatsApp Image 2024-03-04 at 07.19.03 (1).jpeg'
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -31,19 +31,17 @@ const Navbar = () => {
             {isDropdownOpen && (
               <div className='dropdown__menu'>
                 <div className="dropdown-content">
-                <li><NavLink to="/products/p1">META VERIFIED HUB</NavLink></li>
-                <li><NavLink to="https://payupi.in/landingpage/index.html">PAY UPI</NavLink></li>
+                <li><NavLink to="/">GREEN TICK AI</NavLink></li>
+                <li><NavLink to="https://payupi.in/">PAY UPI</NavLink></li>
                 <li><NavLink to="https://digiatme.com/">DIGIT AT ME</NavLink></li>
-                <li><NavLink to="/products/p4">SCHOOL MANAGEMENT</NavLink></li>
-                <li><NavLink to="/products/p5">PG MANAGEMENT</NavLink></li>
-                <li><NavLink to="/products/p6">CRM</NavLink></li>
+                <li><NavLink to="https://schoolpro.in/">SCHOOL MANAGEMENT</NavLink></li>
+               
                 </div>
                 <div className='dropdown__Content2'>
-                <li><NavLink to="/products/p7">ICREATE BRAND</NavLink></li>
-                <li><NavLink to="/products/p8">INOVA BILL</NavLink></li>
-                <li><NavLink to="https://freeleads.in/admin/plugins.php">FREE LEADS</NavLink></li>
-                <li><NavLink to="/products/p10">EXTRA PRODUCT CONTAINER</NavLink></li>
-                <li><NavLink to="/products/p11">EXTRA PRODUCT CONTAINER</NavLink></li>
+                <li><NavLink to="https://icreatbrand.in/public/landing_page.php">ICREATE BRAND</NavLink></li>
+                <li><NavLink to="https://inovabill.com/">INOVA BILL</NavLink></li>
+                <li><NavLink to="https://freeleads.in/">FREE LEADS</NavLink></li>
+                <li><NavLink to="https://aipoz.in">POZ AI</NavLink></li>
  
                 </div>  
 

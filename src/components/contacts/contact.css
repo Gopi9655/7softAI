@@ -1,0 +1,40 @@
+.bg{
+    background-image: url(../../assets/img1.jpg);
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+
+.h1{
+    color: #fff;
+    padding: 12rem 10rem;
+    font-family: sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+
+.page{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #fff;
+    width: 30rem;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: 0 0.188em rgb(156, 156, 156);
+}
+

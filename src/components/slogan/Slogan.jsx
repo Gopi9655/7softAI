@@ -3,7 +3,7 @@ import React from 'react';
 import './slogan.css';
 
 const Slogan = () => {
-  const salesTeamNumber = '+917207114472'; // Replace with your sales team's WhatsApp number
+  const salesTeamNumber = '+917207114472'; 
   const message = encodeURIComponent('Hello, I have a question about your products/services.'); // Pre-filled message
 
   const handleWhatsAppClick = () => {

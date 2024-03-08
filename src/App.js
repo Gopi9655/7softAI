@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import Flowout from './components/flowout/Flowout';
 import Product from './components/Product.jsx/Product';
-
+import Contact from './components/contacts/Contact';
 const App = () => {
   return (
     
@@ -25,6 +25,7 @@ const App = () => {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/services' element={<Flowout />} />
+            <Route path='/contact' element={<Contact />} />
 
             {/* Add routes for other components */}
           </Routes>
